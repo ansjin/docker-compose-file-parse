@@ -1,0 +1,19 @@
+package: .
+import:
+- package: github.com/mattn/go-shellwords
+- package: github.com/stretchr/testify
+- package: github.com/xeipuuv/gojsonreference
+- package: github.com/xeipuuv/gojsonschema
+- package: gopkg.in/yaml.v2
+- package: github.com/mitchellh/mapstructure
+- package: github.com/docker/docker
+- package: github.com/docker/cli
+- package: github.com/docker/go-units
+- package: github.com/docker/go-connections/nat
+- package: gotest.tools/assert
+- package: github.com/google/go-cmp/cmp/cmpopts
+- package: github.com/imdario/mergo
+- package: gotest.tools/env
+
+  subpackages:
+  - runconfig/opts
